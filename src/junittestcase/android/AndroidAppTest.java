@@ -53,7 +53,7 @@ public class AndroidAppTest {
     public void aftercase() throws Exception {
     	if(isFail==true){
     		//如果用例执行出错，检查是否在首页，如果不再首页，点击页面右上角的点，返回
-    		for(int i=1;i<5;i++){
+    		for(int i=1;i<3;i++){
 	    		if(driver.isElementExist("xpath", "//*[@name='首页']") == true){
 	    			return;
 	    		}else{
@@ -61,7 +61,7 @@ public class AndroidAppTest {
 					driver.sleep(2000);
 	    		}
     		}
-    		//如果5次循环都不能到首页，重新初始化driver
+    		//如果3次循环都不能到首页，重新初始化driver
         driver = initAndroidDriver();
 			return;
     	}
