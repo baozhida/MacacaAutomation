@@ -1,4 +1,4 @@
-package junittestcase.android;
+package junittestcase.ios;
 
 import static com.xxx.automation.Driver.initIOSDriver;
 import static com.xxx.automation.DriverUtil.screenShot;
