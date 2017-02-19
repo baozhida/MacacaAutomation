@@ -70,7 +70,7 @@
 	
 	<target name="execsed" depends="junit" description="deal with a lable">
         <echo>began deal with a lable</echo>
-        <exec executable="./bin/execsed.sh">
+        <exec executable="./bin/exec_replace.sh">
         	<arg value="${platform}"/> 
         </exec>
     </target>
