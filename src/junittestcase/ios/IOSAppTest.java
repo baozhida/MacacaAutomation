@@ -62,8 +62,8 @@ public class IOSAppTest {
 	    		}
     		}
     		//如果3次循环都不能到首页，重新初始化driver
-        driver = initAndroidDriver();
-			return;
+        driver = initIOSDriver();
+	return;
     	}
     }
     
