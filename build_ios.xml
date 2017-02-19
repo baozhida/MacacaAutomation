@@ -68,7 +68,7 @@
     </target>
 	
 	
-	<target name="exec_replace" depends="junit" description="deal with a lable">
+	<target name="exec_replace" depends="junit" description="deal the lable">
         <exec executable="./bin/exec_replace.sh">
         	<arg value="${platform}"/> 
         </exec>
