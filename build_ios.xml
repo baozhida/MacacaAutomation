@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="Macaca" default="execsed" basedir=".">
+<project name="Macaca" default="exec_replace" basedir=".">
     <!-- =================================================================== -->
     <!-- 变量设置-->
     <!-- =================================================================== -->
@@ -68,8 +68,7 @@
     </target>
 	
 	
-	<target name="execsed" depends="junit" description="deal with a lable">
-        <echo>began deal with a lable</echo>
+	<target name="exec_replace" depends="junit" description="deal with a lable">
         <exec executable="./bin/exec_replace.sh">
         	<arg value="${platform}"/> 
         </exec>
