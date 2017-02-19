@@ -7,4 +7,9 @@
 
 ![report](./report/img/report1.png)
 
+# 前提条件
+
+安装macaca套件，在工程的目录MacacaAutomation 执行```macaca server --verbose```启动macaca服务进程
+
+
 未完待续
