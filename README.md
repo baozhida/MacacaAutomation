@@ -148,11 +148,15 @@ public class DriverUtil {
 ![project](./report/img/project1.png)
 
 app是存放 app安装包的
+
 bin下面是可执行脚本
+
 report是测试报告的位置
+
 src是java代码
 
 安装macaca套件之后，在工程的目录MacacaAutomation 执行```macaca server --verbose```启动macaca服务进程，之后运行build文件执行case即可。
+
 ```
 build_ios.xml
 ```
