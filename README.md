@@ -18,7 +18,7 @@ ant: eclipse自带
 
 # 下载Macaca套件
 
-下载Macaca套件，全局安装，包括，macaca-cli macaca-ios app-inspector macaca-android()
+下载Macaca套件，全局安装，包括，macaca-cli macaca-ios app-inspector macaca-android
 
 ```
 npm install macaca-cli -g
