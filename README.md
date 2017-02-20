@@ -30,7 +30,7 @@ npm install macaca-android -g
 npm install app-inspector -g
 ```
 
-全局安装的路径分别如下：
+MAC全局安装的路径分别如下：
 
 ```
 /usr/local/lib/node_modules/macaca-cli
