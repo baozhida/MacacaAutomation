@@ -7,9 +7,13 @@ MacacaAutomation用Java基于wd.java编写的自动化测试框架，maven工程
 # 环境信息
 
 Eclipse: Mars.2 (4.5.2)
+
 macaca: 1.2.0
+
 macacaclient: 2.0.1
+
 Junit: 4.12
+
 ant: eclipse自带
 
 # 下载Macaca套件
@@ -28,10 +32,12 @@ npm install app-inspector -g
 
 全局安装的路径分别如下：
 
+```
 /usr/local/lib/node_modules/macaca-cli
 /usr/local/lib/node_modules/macaca-ios
 /usr/local/lib/node_modules/macaca-android
 /usr/local/lib/node_modules/app-inspector
+```
 
 # WebDriverAgent项目重签名
 
