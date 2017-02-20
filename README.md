@@ -22,10 +22,16 @@ ant: eclipse自带
 # 下载Macaca套件
 
 下载Macaca套件，全局安装，包括，macaca-cli macaca-ios app-inspector macaca-android()
-```npm install macaca-cli -g
+
+```
+npm install macaca-cli -g
+
 npm install macaca-ios -g
+
 npm install macaca-android -g
-npm install app-inspector -g```
+
+npm install app-inspector -g
+```
 
 全局安装的路径分别如下：
 
@@ -60,7 +66,7 @@ npm install app-inspector -g```
 接着修改Bundle Identifier，每个项目中能改的全部改掉，换个名字即可，比如把各处的id中的facebook改成abc
 
 放个截图：
-![xcode](./report/img/report1.png)
+![xcode](./report/img/xcode1.png)
 # 改造Junit断言方法，把图片加到报告中
 
 代码如下，主要是添加了screenShot方法，重写fail方法，重写assertTrue方法等等，用到哪个断言，都可以重写，进入断言时候，截图保存下来，然后把图片地址加到AssertionError入参中，即可在报告中看到图片。
@@ -132,7 +138,7 @@ public class DriverUtil {
 
 最终的效果图，点击报告中的ScreeShot，会在新的页面中直接展示图片
 
-![](/uploads/photo/2017/76080405a4eb850c79634be1cb208692.png =700x)
+![report](./report/img/report1.png)
 
 
 # 5.github项目位置
@@ -140,7 +146,7 @@ public class DriverUtil {
 下载到本地，java开发工具打开，稍做修改，即可执行
 
 项目的文件结构：
-![](/uploads/photo/2017/89eb35ecbb4f3753fff3fb0814d8f7c0.png = 200x)
+![project](./report/img/project1.png)
 
 app是存放 app安装包的
 bin下面是可执行脚本
