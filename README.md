@@ -3,13 +3,6 @@ MacacaAutomation用Java基于wd.java编写的自动化测试框架，maven工程
 
 改造了junit默认的report结果，在case错误时候，自动截屏保存图片，并把图片添加在报告文件中，方便检查定位。
 
-报告截图
-
-![report](./report/img/report1.png)
-
-# 前提条件1
-
-安装macaca套件，在工程的目录MacacaAutomation 执行```macaca server --verbose```启动macaca服务进程
 
 # 环境信息
 
@@ -152,6 +145,8 @@ app是存放 app安装包的
 bin下面是可执行脚本
 report是测试报告的位置
 src是java代码
+
+安装macaca套件之后，在工程的目录MacacaAutomation 执行```macaca server --verbose```启动macaca服务进程，之后运行build文件执行case即可。
 ```
 build_ios.xml
 ```
