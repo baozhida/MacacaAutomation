@@ -141,9 +141,7 @@ public class DriverUtil {
 
 
 # 5.github项目位置
-所有的代码除去了公司的相关信息，case只保留了一条，整理之后都上传了github，地址是：https://github.com/baozhida/MacacaAutomation
-下载到本地，java开发工具打开，稍做修改，即可执行
-
+所有的代码除去了公司的相关信息，case只保留了一条，整理之后都上传了，项目下载到本地，java开发工具打开，maven库地址/需要测试的APP包等信息稍做修改，即可执行，具体的case需要自己丰富补充。
 项目的文件结构：
 ![project](./report/img/project1.png)
 
