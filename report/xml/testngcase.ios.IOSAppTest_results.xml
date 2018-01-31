@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IOSTest1"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.252">
+  <properties />
+  
+  
+            <testcase name="case_001xxx" time="16.252" classname="testngcase.ios.IOSAppTest" />
+      
+</testsuite>

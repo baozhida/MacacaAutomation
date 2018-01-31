@@ -1,5 +1,5 @@
 #!/bin/sh
-cd ./report/$1/junittestcase/$1
+cd ./report/html
 echo "Enter report logfile path."
 sed -i '' 's/ltltlt/</g' *
 sed -i '' 's/gtgtgt/>/g' *
